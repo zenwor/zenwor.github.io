@@ -730,3 +730,44 @@ html {
         font-size: 6vw;
     }
 }
+
+.nav-buttons {
+    margin-top: 2em;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cyber-btn {
+    position: relative;
+    display: inline-block;
+    padding: 12px 28px;
+    color: var(--color-text);
+    font-family: var(--font-mono);
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    border: 2px solid var(--color-secondary);
+    border-radius: 4px;
+    background: rgba(155, 161, 178, 0.05);
+    box-shadow: 0 0 10px rgba(155, 161, 178, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.cyber-btn:hover {
+    color: var(--color-glitch);
+    border-color: var(--color-glitch);
+    box-shadow: 0 0 20px var(--color-glitch), 0 0 40px rgba(247, 248, 248, 0.2);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.cyber-btn::after {
+    content: '';
+    position: absolute;
+    top: -2px; left: -2px; right: -2px; bottom: -2px;
+    border: 1px solid var(--color-secondary);
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    border-radius: 4px;
+}
