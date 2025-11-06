@@ -1,0 +1,13 @@
+title: zenwor
+description: the stars are training
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+sass:
+  sass_dir: assets/css
+  style: compressed
