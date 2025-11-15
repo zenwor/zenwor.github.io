@@ -39,7 +39,7 @@ title: Blog
     <div class="content-wrapper about-content">
         <!-- <h2 class="section-title">ABOUT</h2> -->
         <p class="about-text">
-            coming soon ❤️
+            coming soon 🤍
         </p>
     </div>
 </section>
